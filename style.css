@@ -1,0 +1,118 @@
+/* Colors and fonts */
+
+body {
+	color: rgb(30, 30, 30);
+	background-color: #E7E1DA;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: lighter;
+}
+
+h1, h2 {
+	color: #5B0B13;
+	font-family: 'Roboto Mono' , monospace;
+	font-weight: 700;
+    letter-spacing: 1px; 
+}
+
+a{ 
+	text-decoration: none;
+	font-weight: 500;
+		color:#5B0B13;
+}
+
+a:hover { 
+	color:black;
+}
+
+
+profilPic {
+	width: 150px;
+	border-radius: 50%;
+}
+
+div {
+ 	margin: 10px;
+	background: white; 
+	padding: 90px; 	
+	margin: 50px;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;">
+	style="width: 700px; 
+	margin: 40 px auto;"
+}
+
+.img-circle {border-radius: 50%;}
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+
+
+
+.btn-blue {
+	background-color: rosybrown;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-decoration: none;
+}
+
+
+}
+
+ .list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline; 
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rosybrown;
+}
+
+
+ 
+#introduction {
+	margin-bottom: 60px;
+}
+
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	text-align: center;
+	width: 60vw;
+	margin: 10px auto;
+
+
